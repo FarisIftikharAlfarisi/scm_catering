@@ -123,4 +123,14 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | App Customs Configuration
+    |--------------------------------------------------------------------------
+    |
+    | This configuration is used to set the custom configuration for the app.
+    |
+    */
+
+    'nama_app' => env('APP_NAME_SHORT','My Catering')
 ];
